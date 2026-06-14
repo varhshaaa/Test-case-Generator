@@ -83,13 +83,12 @@ pip install -r backend/requirements.txt
 
 ### Environment Setup
 
-Create a .env file inside the backend folder:
+Create a `.env` file inside the `backend` folder using the provided `.env.example` file as a reference:
 
-```
+```env
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
----
 
 ## Run Instructions
 
