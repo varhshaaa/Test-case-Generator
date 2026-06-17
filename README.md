@@ -12,7 +12,7 @@
 | 24U45A0402 | Alla Kesava Sri Yasoda | ECE |
 
 ## Demo Video
-https://drive.google.com/file/d/10zQ7WMJI5OcG51tFlQTPmhN5J9xDrhyZ/view?usp=sharing
+https://drive.google.com/file/d/18uf2r7kNHNQRIJ5ow2IXc5oco24NHDWy/view?usp=sharing
 
 ## Category
 Quality Assurance
