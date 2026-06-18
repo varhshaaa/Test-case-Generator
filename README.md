@@ -32,7 +32,7 @@ Writing test cases from user stories is slow, manual, inconsistent, and prone to
 An AI-powered web application where a user pastes a user story and the system automatically generates positive test cases, negative test cases, edge test cases, acceptance criteria, and Gherkin scenarios in Given/When/Then format with a downloadable .feature file compatible with Cucumber and Behave.
 
 ---
-
+ 
 ## 🚀 Key Features & Capabilities
 *   **Positive Test Generation:** Validates standard user journeys (happy paths) to ensure features work correctly under normal conditions.
 *   **Negative Test Generation:** Checks input validation rules, invalid data boundaries, and error feedback responses.
