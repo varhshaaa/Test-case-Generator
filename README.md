@@ -1,5 +1,11 @@
 # AI-Powered QA Test Suite Studio
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen?style=for-the-badge&logo=streamlit)](https://test-case-generator-8atydenwp4tbujohz347ed.streamlit.app/)
+
+> 🚀 **Live Demo Link:** [https://test-case-generator-8atydenwp4tbujohz347ed.streamlit.app/](https://test-case-generator-8atydenwp4tbujohz347ed.streamlit.app/)
+
+---
+
 ## Team Name: Team-15
 
 ## Team Members
@@ -12,7 +18,7 @@
 | 24U45A0402 | Alla Kesava Sri Yasoda | ECE |
 
 ## Demo Video
-https://drive.google.com/file/d/18uf2r7kNHNQRIJ5ow2IXc5oco24NHDWy/view?usp=sharing
+https://drive.google.com/file/d/10zQ7WMJI5OcG51tFlQTPmhN5J9xDrhyZ/view?usp=sharing
 
 ## Category
 Quality Assurance
@@ -28,38 +34,68 @@ An AI-powered web application where a user pastes a user story and the system au
 
 ---
 
+## 🚀 Key Features & Capabilities
+*   **Positive Test Generation:** Validates standard user journeys (happy paths) to ensure features work correctly under normal conditions.
+*   **Negative Test Generation:** Checks input validation rules, invalid data boundaries, and error feedback responses.
+*   **Edge & Boundary Suite:** Targets stress conditions, extreme values, character caps, and empty payloads to ensure application resilience.
+*   **Agile Acceptance Criteria:** Automates definition-of-done criteria to establish baseline sprint expectations.
+*   **Gherkin BDD specs:** Compiles scenarios into standard Given/When/Then templates.
+*   **One-click Download:** Exports compiled Gherkin files in standard `.feature` format.
+
+---
+
+## 📖 Business Scenario Case Study
+### Input requirement:
+> *"As a shopper, I want to add products to my cart so that I can purchase them later."*
+
+### Automatically Generated Artifacts:
+1.  **Positive Case:** Add in-stock product ➔ Cart badge count increments.
+2.  **Negative Case:** Add out-of-stock product ➔ Warning alert displays.
+3.  **Edge Case:** Add quantity exceeding stock ceiling limit ➔ Caps quantity amount.
+4.  **BDD Scenario:**
+    ```gherkin
+    Feature: Shopping Cart Management
+      Scenario: Successful add-to-cart flow
+        Given the shopper is viewing an in-stock product
+        When the shopper clicks the "Add to Cart" button
+        Then the product is added to the cart
+        And the cart badge increments by 1
+    ```
+
+---
+
 ## Architecture Overview
 
 ```
 User Story Input (Streamlit UI)
         |
         v
-Backend API (FastAPI - main.py)
+        Backend API (FastAPI - main.py)
         |
         v
-LLM Service (services.py - Groq LLaMA 3)
+        LLM Service (services.py - Groq LLaMA 3)
         |
         v
-Structured JSON Response
+        Structured JSON Response
         |
         v
-Display Results in UI
+        Display Results in UI
         |
         v
-Download .feature file
+        Download .feature file
 ```
 
 ---
 
 ## Tech Stack
 
-| Category | Technology |
-|---|---|
-| Frontend | Python, Streamlit |
-| Backend | Python, FastAPI |
-| LLM | LLaMA 3.3-70B via Groq API |
-| Testing | Pytest |
-| Source Control | GitHub |
+| Category | Technology | Description |
+|---|---|---|
+| Frontend | Python, Streamlit | Lightweight, responsive web interface |
+| Backend | Python, FastAPI | High-performance asynchronous API services |
+| LLM | LLaMA 3.3-70B via Groq API | Token completion speed >500 tokens/sec |
+| Testing | Pytest | Automated endpoint verification checks |
+| Source Control | GitHub | Collaborative codebase synchronization |
 
 ---
 
