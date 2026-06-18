@@ -11,8 +11,11 @@ import requests
 # =====================================================================
 # CONFIGURATION
 # =====================================================================
-BACKEND_URL = "http://127.0.0.1:8000/generate"
-DOWNLOAD_URL = "http://127.0.0.1:8000/download"
+import os
+BACKEND_BASE = os.getenv("BACKEND_BASE_URL", "http://127.0.0.1:8000")
+BACKEND_URL = f"{BACKEND_BASE}/generate"
+DOWNLOAD_URL = f"{BACKEND_BASE}/download"
+
 
 # =====================================================================
 # PAGE CONFIGURATION
