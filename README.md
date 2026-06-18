@@ -14,7 +14,6 @@
 |---|---|---|
 | 23U41A4233 | Lekkala Anusha | CSM |
 | 23U41A0503 | Allu Varshini | CSE |
-| 24U45A0417 | Lakkimsetty Lakshmi Narasimha Swamy | ECE |
 | 24U45A0402 | Alla Kesava Sri Yasoda | ECE |
 
 ## Demo Video
